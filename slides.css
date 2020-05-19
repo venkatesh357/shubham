@@ -1,0 +1,87 @@
+#outerbox
+{
+    width:800px;
+    overflow:hidden;
+}
+#sliderbox
+{
+    position: relative;
+    width:3200px;
+    animation-name:venky;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+}
+#sliderbox div
+{
+      float:left;
+}
+#pad{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 20px;
+    font-size: 10.4px;
+  }
+#b{
+    background-image: url(b.jpg);
+    text-align: center;
+}
+.v{
+    font-family: serif;
+    font-size: 35px;
+}
+.circleBase {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: indianred;
+}
+#table{
+    font-size: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+@keyframes venky{
+
+    0%
+    {
+        left:0px;
+    }
+    20%
+    {
+        left:0px;
+    }
+    25%
+    {
+        left:-800px;
+    }
+    45%
+    {
+        left:-800px;
+    }
+    50%
+    {
+        left:-1600px;
+    }
+    70%
+    {
+        left:-1600px;
+    }
+    75%
+    {
+        left:-2400px;
+    }
+    95%
+    {
+        left:-2400px;
+    }
+    100%
+    {
+        left:-3200px;
+    }
+}
+
+ 

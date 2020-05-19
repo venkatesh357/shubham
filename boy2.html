@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<style>
+h2{
+    color:whitesmoke
+}
+.partner{
+    color:whitesmoke;
+    font-size: large;
+}
+body{
+    background: #585c68;
+    font-size: 14px;
+    line-height: 22px;
+    color:#555555;
+    align-items: center;
+    justify-content: center;
+}
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.semi-bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+.resume{
+    width: 800px;
+    height:auto;
+    display: flex;
+    margin:50px auto;
+}
+.resume .resume_left{
+    width: 280px;
+    background: #0bb5f4;
+}
+.resume .resume_left .resume_profile{
+    width:100%;
+    height:280px;
+}
+.resume .resume_left .resume_profile img{
+    width:100%;
+    height:100%
+}
+.resume .resume_left .resume_content{
+    padding: 0 25px;
+}
+.resume .title{
+    margin-bottom: 20px;
+}
+.resume .resume_left .bold{
+    color:whitesmoke;
+}
+.resume .resume_left .regular{
+    color:whitesmoke;
+}
+.resume .resume_item{
+     padding:25px 0;
+     border-bottom:2px solid whitesmoke ;
+}
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child{
+    border-bottom: 0px;
+}
+.resume .resume_left ul li{
+    display:flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.resume .resume_left ul li:last-child{
+    margin-bottom: 0;
+}
+.resume .resume_left ul li .icon{
+    width:35px;
+    height:35px;
+    background:#fff;
+    color:#0bb5f4;
+    border-radius:50%;
+    margin-right: 15px;
+    font-size:16px;
+    position: relative;
+}
+.resume .icon i,
+.resume .resume_right .resume_hobbies ul li i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.resume .resume_left ul li .data{
+    color:whitesmoke
+}
+.resume .resume_left .resume_skills ul li{
+    color:whitesmoke;
+    justify-content: space-between;
+}
+.resume .resume_left .resume_skills ul li .skill_name{
+    width:25%
+}
+.resume .resume_left .resume_skills ul li .skill_progress{
+    width:60%;
+    margin: 0 5px;
+    height:5px;
+    background:#009fd9;
+    position:relative;
+}
+.resume .resume_left .resume_skills ul li .skill_per{
+    width:15%;
+}
+.resume .resume_left .resume_skills ul li .skill_progress span{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background: #fff
+}
+.resume .resume_right{
+    width:520px;
+    background:whitesmoke;
+    padding: 25px;
+}
+.resume .resume_right .bold{
+    color:blue
+}
+.resume .resume_right .resume_workexperience ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+.resume .resume_right ul li{
+    position: relative;
+}
+.resume .resume_right ul li .date{
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 15px;
+}.resume .resume_right ul li .info{
+    margin-bottom: 20px;
+}
+.resume .resume_right ul li:last-child .info{
+    margin-bottom: 0;
+
+}
+.resume .resume_right .resume_workexperience ul li:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left:-25px;
+    width: 6px;
+    height:6px;
+    border-radius: 50%;
+    border:2px solid #0bb5f4;
+}
+.resume .resume_right .resume_workexperience ul li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left:-23px;
+    width: 2px;
+    height:115px;
+    border:2px solid #0bb5f4;
+}
+.resume .resume_right .resume_hobbies ul{
+    display: flex;
+    justify-content: space-between;
+}
+.resume .resume_right .resume_hobbies ul li{
+    width:80px;
+    height:80px;
+    border:2px solid#0bb5f4;
+    border-radius: 50%;
+    position: relative;
+    color:#0bb5f4
+}
+.resume .resume_right .resume_hobbies ul li i{
+    font-size: 30px;
+}
+.resume .resume_right .resume_hobbies ul li:before{
+    content:"";
+    position: absolute;
+    top:40px;
+    right:-52px;
+    width:50px;
+    height:2px;
+    background: #0bb5f4;
+}
+.container{
+        width:900px;
+        padding:7% 50px;
+        margin:0 auto;
+        size:auto;
+
+    }
+    a{
+        width:180px;
+        display:inline-block;
+        margin:5% 20px;
+        padding:20px 0px;
+        text-align: center;
+        font-family: arial;
+        font-size: 16px;
+        font-weight: bold;
+        color:#fff;
+        position: relative;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        size: auto;
+    }
+  a:nth-child(1){
+      background-color: orange;
+      border-radius: 0 30px 0 30px;
+  }
+.radio{
+            font-size: 24px;
+            font-weight: 500px;
+            text-transform: capitalize;
+            display:inline-block;
+            vertical-align: middle;
+            color:#fff;
+            position: relative;
+            padding-left: 30px;
+            cursor: pointer;
+        }
+</style>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>BOY2</title>
+            
+            <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+        </head>
+        <body>
+            <div class="resume">
+                <div class="resume_left">
+                    <div class="resume_profile">
+                        <img src="th(2).jpg" alt="profile_pic">
+                    </div>
+                    <div class="resume_content">
+                        <div class="resume_item resume_info">
+                            <div class="title">
+                                <p class="bold">DEVESH REDDY</p>
+                                <p class="regular">Business</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="icon"><i class="fas fa-map-signs"
+                                        aria-hidden="true"></i></div>
+                                    <div class="data">
+                                        21 street ,Rajahmundry <br/>ANDRA PRADESH
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                                    <div class="data">
+                                        9849615328
+                                    </div>
+                                </li><li>
+                                    <div class="icon"><i class="fas fa-envelope"
+                                        aria-hidden="true"></i></div>
+                                    <div class="data">
+                                        deveshreddy@gmail.com
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="resume_item resume_skills">
+                            <div class="title">
+                                <p class="bold">PERSONAL DETAILS</p>
+                                
+                            </div> 
+                            <ul>
+                                <li>
+                                    <div class="skill_name">
+                                        color
+                                    </div>
+                                    <div class="skill_progress">
+                                        <span style="width:80%;"></span>
+                                    </div>
+                                    <div class="skill_per">80%</div>
+                                </li>
+                                <li>
+                                    <div class="skill_name">
+                                        body type
+                                    </div>
+                                    <div class="skill_progress">
+                                        <span style="width:60%;"></span>
+                                    </div>
+                                    <div class="skill_per">60%</div>
+                                </li>
+                                <li>
+                                    <div class="skill_name">
+                                        Height
+                                    </div>
+                                    <div class="skill_progress">
+                                        <span style="width:50%;"></span>
+                                    </div>
+                                    <div class="skill_per">50%</div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="resume_item resume_social">
+                        <div class="title">
+                            <p class="bold">SOCIAL NETWORKING</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="icon"><i class="fab fa-facebook-square" aria-hidden="true"></i>
+                    
+                                </div>
+                                <div class="data">
+                                    <p class="semi_bold">Facebook</p>
+                                    <p>deveshreddy@facebook.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                    
+                                </div>
+                                <div class="data">
+                                    <p class="semi_bold">Twitter</p>
+                                    <p>deveshreddy@twitter.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                    
+                                </div>
+                                <div class="data">
+                                    <p class="semi_bold">linkedin</p>
+                                    <p>deveshreddy@linkedin.com</p>
+                                </div>
+                            </li>
+                        </ul><hr>
+                       <h2>PARTNER PREFERENCE</h2>
+                       <div class="partner">
+                           <p><pre>   Age    :    24-30yrs
+   height :    5ft 7In
+   status :    Never married
+   smoking:    Never smokes
+   Religion:   Hindu
+   drinking:   Never drinks
+                           </pre></p>
+                       </div>
+                       </div>
+            </div>
+                </div>
+            
+            <div class="resume_right">
+                <div class="resume_item resume_about">
+                    <div class="title">
+                        <p class="bold">about me</p>
+    
+                    </div>
+                    <p>I created this profile for my son.he has done his 
+                        b.tech and he is searching for a suitable job.we come from a
+                        middle class joint family with traditional values,currently settled
+                        in hyderabad
+                    </p>
+    
+                </div>
+                <hr>
+                <div class="resume_item resume_basic details">
+                    <div class="title">
+                        <p class="bold">BASIC DETAILS</p>
+    
+                    </div>
+                    <P><PRE>
+                        Name                    : Devesh reddy
+                        Gender                  : Male
+                        Age                     : 33 yrs
+                        Height                  : 5 ft 08 In
+                        Maritial status         : Never married
+                        Mother tounge           : Telugu
+                        Physical status         : Normal
+                        Body type               : bald
+                        Profile created by      : Parents
+                    </PRE></P>
+                </div><hr>
+                <div class="resume_item resume_workexperience">
+                <div class="title">
+                    <p class="bold">WORK EXPERIENCE</p>
+    
+                </div>
+                <ul>
+                    <li>
+                        <div class="date"><h4>2013-2016</h4></div>
+                        <div class="info">
+                            <p class="semi-bold">restaurant</p>
+                            <p>owns a restaurant
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="date"><h4>2016-2018</h4></div>
+                        <div class="info">
+                            <p class="semi-bold">finance</p>
+                            <p>Runs a restaurant and a finance company</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="date"><h4>2018-2020</h4></div>
+                        <div class="info">
+                            <p class="semi-bold">Bike showroom</p>
+                            <p>owns a restaurant a finance company and a bike show room</p>
+                        </div>
+                    </li>
+                </ul>
+                   
+               </div><hr>
+               <div class="resume_item resume_religious details">
+                <div class="title">
+                    <p class="bold">RELIGIOUS DETAILS</p>
+            <P><PRE>                Religion                 : Hindu
+                caste                    : Reddy
+                Gotram                   : Kaasi
+                Rashi                    : Makara
+                Dosham                   : No
+            </PRE></P>
+    
+                </div><hr>
+                <div class="resume_right">
+                        <div class="resume_item resume_hobbies">
+                            <div class="title">
+                                <p class="bold">hobbies</p>
+    
+                                </div>
+                                <ul>
+                                    <li><i class="fas fa-book"aria-hidden="true"></i></li>
+                                    <li><i class="fas fa-gamepad"aria-hidden="true"></i></li>
+                                    <li><i class="fas fa-music"aria-hidden="true"></i></li>
+                                    <li><i class="fas fa-pagelines"aria-hidden="true"></i></li>
+                                
+                                </ul>
+                            
+                            </div>
+                            
+                
+                </div>
+                <p style="color:blue;font-size: 24px;width: 100px;">Like him</p>
+            <div class="radio-group">
+                    <label>
+                        <input type="radio" value="male" name="gender">
+                       YES
+                        <span></span>
+                    </label>
+                    <label>
+                            <input type="radio" value="female" name="gender">
+                            NO
+                            <span></span>
+                    </label>
+                </div>
+            <div class="container">
+                    <a href="#">Submit</a>
+                </div>
+        </body>
+    </html>
+    
+    </html>

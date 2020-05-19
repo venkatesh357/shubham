@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="sample.css">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="style1.css">
+<link type="text/css" rel="stylesheet" href="slides.css"/>
+<script src="sample.js"></script>
+</head>
+<body>
+
+<div class="slideshow-container">
+    <nav>
+        <img class="logo" style="height: 250px;width: 300px;"src="logo2.png">
+        <div id="logo">
+           <h2></h2>
+       </div>
+  
+        <div id="menu">
+            <ul>
+             <div class="dropdown">
+               
+               <button class="dropbtn">Home</button>
+                   <div class="dropdown-content">
+                     <a href="#">Link 1</a>
+                     <a href="#">Link 2</a>
+                     <a href="#">Link 3</a>
+                   </div></div>
+
+                   <div class="dropdown">
+                     <button class="dropbtn">About</button>
+                     <div class="dropdown-content">
+                       <a href="#">Link 1</a>
+                       <a href="#">Link 2</a>
+                       <a href="#">Link 3</a>
+                       </div></div>
+                       <div class="dropdown">
+                           <button class="dropbtn">Contact</button>
+                           <div class="dropdown-content">
+                             <a href="#">Link 1</a>
+                             <a href="#">Link 2</a>
+                             <a href="#">Link 3</a>
+                             </div></div>
+                               <div class="dropdown">
+                                 <div class="container">
+                                   <a href="#" class="dropbtn" id="button">Register</a>
+                                </div>
+                               </div>
+                           </ul>
+
+                       </div>
+                   </nav>
+                              
+                               <div class="popup" >
+                                       <div class="register">    
+                                           <form method="post" class="register" ><br><br><br><br><br>
+                                               <h2>Register here</h2>
+                                               <span class="close">&times;</span>
+                                               <label>First Name :</label><br>
+                                               <input type="text" name="fname" id="name"
+                                               placeholder="enter your First name" required><br><br>
+                                               <label>Last Name :</label><br>
+                                               <input type="text" name="lname" id="name"
+                                               placeholder="enter your Last name" required><br><br>
+                                               <label>Mobile Number :</label><br>
+                                               <select id="ph">
+                                                   <option>+91</option>
+                                                   <option>+92</option>
+                                                   <option>+93</option>
+                                                   <option>+94</option>
+                                                   <option>+95</option>
+                                               </select>
+                                               <input type="number" name="MNum" id="num"
+                                               placeholder="enter your mobile number" required><br><br>
+                                               <label>Date of birth:</label><br>
+                                               <input type="date" name="dob" id="name"
+                                               required><br><br>
+                                               <label>Email:</label><br>
+                                               <input type="email" name="email" id="name"
+                                               placeholder="enter your email id" required><br><br>
+                                               <label>Password :</label><br>
+                                               <input type="password" name="pass" id="name"
+                                               placeholder="enter your password" required><br><br>
+                                               <label>Re enter your Password :</label><br>
+                                               <input type="password" name="pass2" id="name"
+                                               placeholder="enter your password" required><br><br>
+                                               <label>Gender:</label>
+                                               <input type="radio" name="male" id="male"><span style="color: white;"
+                                                id="male">&nbsp; Male</span>&nbsp;&nbsp;
+                                               <input type="radio" name="male" id="male"><span style="color: white;"
+                                                id="male">&nbsp; Female</span>&nbsp;&nbsp;<br><br>
+                                                <input type="submit" value="Submit" id="sub">
+                                           </form>
+                                           </div>
+                               </div>
+<script>
+                                
+    document.getElementById("button").addEventListener("click", function(){
+        document.querySelector(".popup").style.display="flex";
+    })
+    
+    document.querySelector(".close").addEventListener("click", function(){
+        document.querySelector(".popup").style.display="none";
+    })
+
+</script>
+
+
+
+
+<div id="container">
+<div id="slider">
+<div class="slid" id="slid1">
+<div class="content">
+<div class="heading">
+<h1>Shubham matrimony</h1>
+</div>
+<div class="line"></div>
+<div class="des">
+<p id="par">a happy wedding planner for a happy future </p>
+</div>
+</div>
+</div>
+<div class="slid" id="slid2">
+<div class="content">
+<div class="heading">
+    <h1>Shubham matrimony</h1>
+</div>
+<div class="line"></div>
+<div class="des">
+    <p id="par">a happy wedding planner for a happy future </p>
+</div>
+</div>
+</div>
+<div class="slid" id="slid3"><div class="content">
+<div class="heading">
+<h1>Shubham matrimony</h1>
+</div>
+<div class="line"></div>
+<div class="des">
+<p id="par">a happy wedding planner for a happy future </p>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+
+<div id="det" style="background-color: rgba(0, 0, 0, .8);text-align: justify;height: 80px;width: 100%;" >
+ <table>
+   <tr>
+    <td><img src="logo5.png" style="margin-left: 5.5em;"></td>
+    <td id="para" style="font-family: Georgia, 'Times New Roman', Times, serif;">Contact genuine profiles with<br>100% certified phone numbers</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><img src="logo4.png"></td>
+    <td id="para" style="font-family: Georgia, 'Times New Roman', Times, serif;">Highest number of documented<br>marriages online - Limca Book of Records</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><img src="logo3.png"></td>
+    <td id="para" style="font-family: Georgia, 'Times New Roman', Times, serif;">The most trusted matrimony<br>brand - Brand Trust Report</td>   
+   </tr>
+ </table>
+   
+</div>
+<div id="b" style="width: 100%;height: 505px;"><br>
+  <p class="v">Who we are?</p><br>
+  <p style="line-height: 30px;letter-spacing: 1px;font-family: serif;font-size: 18px;">Pioneered by Venkat Matrimony-Shubham Matrimony is an exclusive matchmaking service for the rich and affluent.
+    <br> Shubham Matrimony focuses on serving the privileged class who are unique in their taste and style.</p><br><br>
+   <table>
+      <tr>
+        
+        <td id="para" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+          <div class="circleBase" style="margin-left: 12em;"><br><img src="conf.png"/><br>
+          Total<br>confidentiality</div><br><br>
+          <p id="ven" style="margin-left: 9em;">Your privacy is our utmost priority!<br>
+          Your personal details will not be shared without<br> your authorization.</p>
+          </td>
+        <td id="para" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+          <div class="circleBase" style="margin-left: 12em;"><br><img src="pers.png"/><br>
+          Personalised<br>service</div><br><br>
+          <p id="ven" style="margin-left: 11em;">A dedicated Relationship Manager who<br>
+            will focus on finding you the perfect life<br> partner based on your expectations.</p>
+        </td>
+        <td id="para" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+          <div class="circleBase" style="margin-left: 12em;"><br><img src="mat.png"/><br>
+          Shubham<br>matches</div><br><br>
+          <p id="ven" style="margin-left: 10em;">An Elite database of hand-picked<br>
+            rich and affluent profiles from around the<br>
+            world.</p>
+        </td>
+      </tr><br>
+      <tr>
+        <td style="font-family: Arial, Helvetica, sans-serif;text-align: center;"><br><br></td>
+      </tr>
+   </table>
+    
+  
+</div><br><br><br><br><br><br>
+<div id="det" style="background-color: #222222;height: 150px;width: 100%;margin-top: -110px;">
+  <table>
+    <tr>
+      <td id="para" ><p style="margin-left: 8em;line-height: 25px;font-family: roboto;"><br><br><span style="font-size: 35px;color: indianred;">"</span><span style="color:#fff;font-size: 35px;font-family: roboto;">400,000+</span><span style="font-size: 35px;color: indianred;">"</span>
+      <br>&nbsp;&nbsp;Shubham profiles</p></td>
+      <td id="para" ><p style="margin-left: 8em;line-height: 25px;font-family: roboto;"><br><br><span style="font-size: 35px;color: indianred;">"</span><span style="color:#fff;font-size: 35px;font-family: roboto;">100,000+</span><span style="font-size: 35px;color: indianred;">"</span>
+        <br>&nbsp;&nbsp;&nbsp;Success stories</p></td>
+        <td id="para" ><p style="margin-left: 8em;line-height: 25px;font-family: roboto;"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 35px;color: indianred;">"</span><span style="color:#fff;font-size: 35px;font-family: roboto;">100+</span><span style="font-size: 35px;color: indianred;">"</span>
+          <br>Relationship managers</p></td>
+          <td id="para" ><p style="margin-left: 8em;line-height: 25px;font-family: roboto;"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 35px;color: indianred;">"</span><span style="color:#fff;font-size: 35px;font-family: roboto;">15+</span><span style="font-size: 35px;color: indianred;">"</span>
+            <br>Years of Shubham service</p></td>
+    </tr>
+  </table>
+</div><br><br>
+<div style="text-align: center;font-family: roboto light;font-size: 35px;color: #000;"> <span style="font-size: 35px;color: indianred;">""</span> Shubham Stories</div><br><br>
+
+<center>
+  <div id="outerbox">
+         <div id="sliderbox">
+            <div style="background-color: indianred;height: 220px; width: 800px;">
+            <img src="s1.jpg" style="height: 250px;width: 350px;" align="left">
+                      <p id="pad" style="text-align: center;"><br><b style="font-size: 15px;">Swapna & Romnath</b><br>
+                          I am happy to say that my sister Swapna is getting married <br>
+                          next month. I hesitated when we registered for the Shubham <br>
+                          Matrimonial services, but my worries were put to rest when<br>
+                          my Swapna's match was finalized. His name is Mr. Romnath,<br>
+                          a very understanding, caring IIM graduate who works as a <br>
+                          business analyst in a Multi-national company.I will refer <br>
+                          Shubham Matrimony to others, for its honesty and<br> commitment to
+                          finding my sister's match.</p>
+            </div>
+            <div style="background-color: indianred;height: 220px; width: 800px;">
+              <img src="2.jpg" style="height: 250px;width: 350px;" align="left">
+                      <p id="pad" style="text-align: center;"><br><b style="font-size: 15px;">Tanu and Vivek</b><br>
+                          Marriages are made in heaven, but my marriage was made<br>
+                          possible through Shubham Matrimony! I am a businessman<br>
+                          committed to my work. Shubham Matrimony found a life <br>partner
+                          that my parents approved of. The Relationship <br> Manager, Mr Soheb,
+                          showed me a few profiles and that's <br>when I saw Tanu, a dentist.
+                          When we finally met,<br> sparks flew. She met my parents and they 
+                          liked<br> her too. we married on 7th March 2020.
+                      </p>
+          </div>
+            <div style="background-color: indianred;height: 220px; width: 800px;">
+              <img src="s3.jpg" style="height: 250px;width: 350px;" align="left">
+                      <p id="pad" style="text-align: center;"><br><b style="font-size: 15px;">Kedar/Tenali</b><br>
+                          I joined Shubham Matrimony on 13th Nov 2014. After few <br>weeks, our
+                          RM showed us Nikita’s profile. My parents and <br>i liked the profile.
+                          Nikita and her family also liked my <br>profile and after talking to
+                          each other our families decided<br> to meet . We met for the first time
+                          and liked each other and<br> after further meetings we decided to marry
+                          each other.<br> Shubham matrimony has helped me in finding my life partner<br>
+                          and I am thankful to them.
+                      </p>
+          </div>
+            <div style="background-color: indianred;height: 220px; width: 800px;">
+              <img src="s4.jpg" style="height: 250px;width: 350px;" align="left">
+              <p id="pad" style="text-align: center;"><br><b style="font-size: 15px;">Ankita & Amit</b><br>
+                  I wasn't just looking for a bride for my son, but an angel<br>that will
+                  bring joy to his life and ours. I would like to<br>thank our Relationship
+                  Manager, Mr. Nikhil. His patience,<br> dedication and thoughtful choices led
+                  us to finding our well<br> educated, independent and traditional daughter-in-law.
+                  The<br> horoscopes matched perfectly and most importantly, our<br> families liked each
+                  other. My son's marriage is now<br> finalized. God Bless Shubham Matrimony!
+              </p>
+          </div>  
+      </div>
+  </div>
+</center><br><br>
+
+  <footer>
+    <div style="background-color: indianred;width: 100%;">
+       <table style="margin-left: 10em;">
+         <tr id="table" >
+           <td >
+             <br><br><a href="#">Home</a><br><a href="#">About Us</a>
+           </td>
+         </tr>
+       </table>
+    </div>
+  </footer>
+</body>
+</html> 

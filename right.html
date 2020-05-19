@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+body {
+    background-image:url("right.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+* {
+    box-sizing: border-box;
+  }
+
+  #form input{
+  background-color:black;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid blanchedalmond;
+  border-radius: 4px;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color:blanchedalmond;
+  font-family:cursive;
+  font-size:100%;
+  
+}
+
+input[type=submit] {
+  background-color:black;
+  color: transparent;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color:blanchedalmond;
+  font-size:100%;
+  font-family:cursive;
+  text-align-last:right;
+ 
+}
+
+input[type=submit]:hover {
+  background-color:transparent;
+  font-family:cursive;
+  
+}
+
+.container {
+  border-radius: 5px;
+  background-color:transparent;
+  padding: 10px;
+  color:blanchedalmond;
+  font-size:170%;
+  font-family:cursive;
+}
+</style>
+</head>
+<body>
+
+<h3 style= "color:blanchedalmond; font-size:300% ; text-align: center;font-family:cursive;"> <b> Account Details  </b></h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <br>
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <br>
+    <br> 
+    <label for="gender">Gender</label>
+    <input type="radio" id="gender" name="radiobutton" value="myValue1" checked="checked"/>Female 
+    <input type="radio" id="gender" name="radiobutton" value="myValue1" />Male <br>
+    
+    <br>
+    <label for="age">Age       </label> 
+    <input style="padding: 12px" ; type="number" id="age" name="age" min="18" max="50"> 
+   
+    <br>
+    <br>
+    
+    <label for="looking for">Looking For</label>
+    <input type="radio" id="looking for" name="radiobutton" value="myValue1" checked="checked"/>Female 
+    <input type="radio" id="looking for" name="radiobutton" value="myValue1" />Male <br>
+   
+    <br> 
+    
+
+    <label for="state">State</label>
+    <select id="state" name="state">
+        <option value="andhra pradesh">Andhra Pradesh</option>
+        <option value="arunachal pradesh">Arunachal Pradesh</option>
+        <option value="bihar">Bihar</option>
+        <option value="chattisgarh">Chattisgarh</option>
+        <option value="goa">Goa</option>
+        <option value="gujarat">Gujarat</option>
+        <option value="haryana">Haryana</option>
+        <option value="himachal pradesh">Himachal Pradesh</option>
+        <option value="jharkhand">Jharkhand</option>
+        <option value="karnataka">Karnataka</option>
+        <option value="kerala">Kerala</option>
+        <option value="madhya pradesh">Madhya Pradesh</option>
+        <option value="maharashtra">Maharashtra</option>
+        <option value="manipur">Manipur</option>
+        <option value="meghalaya">Meghalaya</option>
+        <option value="mizoram">Mizoram</option>
+        <option value="nagaland">Nagaland</option>            
+        <option value="odisha">Odisha</option>     
+        <option value="punjab">Punjab</option>     
+        <option value="rajasthan">Rajasthan</option>     
+        <option value="sikkim">Sikkim</option>     
+        <option value="tamil nadu">Tamil Nadu</option>     
+        <option value="telangana">Telangana</option>     
+        <option value="tripura">Tripura</option>     
+        <option value="uttar pradesh">Uttar Pradesh</option>     
+        <option value="uttarakand">Uttarakand</option>     
+        <option value="west bengal">West Bengal</option>   
+    </select>
+   
+    <br>
+    <br>
+    
+    <label for="phonenumber"> Mobile Number </label>
+    <input type="text" id="phonenumber" name="phonenumber" >
+  
+    <br>
+    <br>
+
+    <label for="emailid"> E-mail Id </label>
+    <input type="text" id="emailid" name="emailid" >
+    
+    <br>
+    <br>
+    
+    <label for="About Yourself">Subject</label>
+    <textarea id="About Yourself" name="About Yourself" style="height:100px"></textarea>
+    <br>
+    <br>
+   
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,416 @@
+<html>
+    <style>
+    
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size:c;
+	background-position: center;
+	color: rgb(92, 92, 92);
+	font-size: 10pt;
+}
+
+.card {
+	border-radius: 8px;
+	box-shadow: 0 0px 9px 3px rgba(121, 121, 121, 0.5);
+	margin: 12% auto 0;
+	background: #ffffff;
+	padding: 10px;
+}
+
+.row {
+	margin: 0 auto;
+	margin-bottom: 6px;
+	/* border: 1px solid red; */
+}
+/* .row:not(:last-child) {
+	margin-bottom: 10px;
+} */
+.row:after {
+	display: table;
+	content: '';
+	clear: both;
+}
+.row [class^='col-'] {
+	float: left;
+	/* border: 1px solid blue; */
+}
+.row [class^='col-']:not(:last-child) {
+	margin-right: 10px;
+}
+.row .col-1-of-2 {
+	width: calc((100% - 10px) / 2);
+}
+.row .col-1-of-3 {
+	width: calc((100% - (2 * 10px)) / 3);
+}
+.row .col-2-of-3 {
+	width: calc((2 * ((100% - (2 * 10px)) / 3)) + 10px);
+}
+.row .col-1-of-4 {
+	width: calc((100% - (3 * 10px)) / 4);
+}
+.row .col-2-of-4 {
+	width: calc(2 * ((100% - (3 * 10px)) / 4) + 10px);
+}
+.row .col-3-of-4 {
+	width: calc(3 * ((100% - (3 * 10px)) / 4) + (2 * 10px));
+}
+
+
+
+
+
+.card-details {
+	align-items: center;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.card-details .name {
+	font-size: 10pt;
+	font-weight: 900;
+	font-style: italic;
+}
+.card-image {
+	width: 90px;
+	height:138px;
+}
+.content {
+	align-items: center;
+	font-size: 9pt;
+	color: rgb(14, 12, 12);
+}
+
+.card-body {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: nowrap; */
+	justify-content: start;
+	align-items: stretch;
+}
+.card h2{
+	text-align: center;
+	color: red;
+	padding:10px;
+	margin-bottom: 30px;
+}
+
+    </style>
+    <body>
+        <!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<link rel="stylesheet" href="sample.css">
+		<link rel="stylesheet" href="style2.css">
+		<link rel="stylesheet" href="style1.css">
+		<link type="text/css" rel="stylesheet" href="slides.css"/>
+		<script src="sample.js"></script>
+		</head>
+			<header style="background-color: rgba(0, 0, 0, 0.7);">
+			<nav>
+				<img class="logo" style="height: 180px;width: 200px;"src="logo2.png">
+				<div id="logo">
+				   <h2></h2>
+			   </div>
+		  
+				<div id="menu">
+					<ul>
+					 <div class="dropdown">
+					   <div class="container">
+					   <a href="home.html" class="dropbtn">Home</a>
+						   </div></div>
+		
+							<div class="dropdown">
+							 <div class="container">
+							 <a href="frames.html" class="dropbtn">&nbsp;Account&nbsp;details&nbsp;</a>
+							 </div> 
+							</div>
+							<div class="dropdown">
+								<button class="dropbtn">Privacy&nbsp;policy</button>
+								<div class="dropdown-content">
+								  <a href="legal.html">Terms&nbsp;&&nbsp;conditions</a>
+								  <a href="privacy.html">Privacy&nbsp;policy</a>
+								  <a href="fraud.html">Fraud&nbsp;alert</a>
+								  <a href="third.html">Third&nbsp;party&nbsp;T&C</a>
+								  <a href="feature.html">Privacy&nbsp;features</a>
+								  <a href="cookie.html">Cookies</a>
+								  </div></div>
+									   <div class="dropdown">
+										 <div class="container">
+										   <a href="index.html" class="dropbtn" id="button">Log&nbsp;out</a>
+										</div>
+									   </div>
+								   </ul>
+						   </nav>
+						   </header>
+		
+	<body style="background-color:rgb(0,255,196);">
+		<div style="width: 60%;margin-top: 30px;" class="card">
+			<h2>Let's get started by connecting with few of your Matches</h2>
+			<div class="row">
+				<div class="col-3-of-3">
+					<div class="card" style="padding: 10px;">
+						<div class="card-body">
+							<img
+								src="tg(1).jpg"
+								class="card-image"
+							/>
+
+							<div class="card-details content">
+								<div class="name">
+									KRITI SHETTY
+								</div>
+								<div>
+									23 yrs, 5' 11"
+								</div>
+								<div>
+									software engineer
+								</div>
+								<div>
+									coimbatore
+								</div>
+								<div>
+								     <a style="color: blue;text-decoration: none;" href="girl1.html">view more</a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3-of-3">
+					<div class="card" style="padding: 10px;">
+						<div class="card-body">
+							<img
+								src="tg(2).jpg"
+								class="card-image"
+							/>
+							<div class="card-details content">
+								<div class="name">
+									NAVYA MADHU
+								</div>
+								<div>
+									25 yrs, 5' 09"
+								</div>
+								<div>
+							        Teacher
+								</div>
+								<div>
+									Rajahmundry
+								</div>
+								<div>
+										<a style="color: blue;text-decoration: none;" href="girl2.html">view more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3-of-3">
+					<div class="card" style="padding: 10px;">
+						<div class="card-body">
+							<img
+								src="tg(3).jpg"
+								class="card-image"
+							/>
+							<div class="card-details content">
+								<div class="name">
+                                    NAGA NANDINI
+								</div>
+								<div>
+									27 yrs, 5' 11"
+								</div>
+								<div>
+									Software Development
+								</div>
+								<div>
+									Hyderabad
+								</div>
+								<div>
+										<a style="color: blue;text-decoration: none;" href="girl3.html">view more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3-of-3">
+					<div class="card" style="padding: 10px;">
+						<div class="card-body">
+							<img
+								src="tg(4).jpg"
+								class="card-image"
+							/>
+							<div class="card-details content">
+								<div class="name">
+										YAMINI YAMU
+								</div>
+								<div>
+									31 yrs, 5' 07"
+								</div>
+								<div>
+									House maker 
+								</div>
+								<div>
+									bhimavaram
+								</div>
+								<div>
+										<a style="color: blue;text-decoration: none;" href>view more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3-of-3">
+					<div class="card" style="padding: 10px;">
+						<div class="card-body">
+							<img
+								src="tg(5).jpg"
+								class="card-image"
+							/>
+
+							<div class="card-details content">
+								<div class="name">
+									MYTHRI REDDY
+								</div>
+								<div>
+									19 yrs, 5' 09"
+								</div>
+								<div>
+									web page developper
+								</div>
+								<div>
+									Banglore
+								</div>
+								<div>
+										<a style="color: blue;text-decoration: none;" href>view more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3-of-3">
+					<div class="card" style="padding: 10px;">
+						<div class="card-body">
+							<img
+								src="tg(6).jpg"
+								class="card-image"
+							/>
+
+							<div class="card-details content">
+								<div class="name">
+									JUHITA
+								</div>
+								<div>
+									29 yrs, 5' 10"
+								</div>
+								<div>
+									Software Development
+								</div>
+								<div>
+									Pondicherry
+								</div>
+								<div>
+										<a style="color: blue;text-decoration: none;" href="#">viewmore</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3-of-3">
+					<div class="card" style="padding: 10px;">
+						<div class="card-body">
+							<img
+								src="tg(7).jpg"
+								class="card-image"
+							/>
+
+							<div class="card-details content">
+								<div class="name">
+									HARIKA NAIDU
+								</div>
+								<div>
+									32 yrs, 5' 04"
+								</div>
+								<div>
+									Fashion designer
+								</div>
+								<div>
+									agartala
+								</div>
+								<div>
+										<a style="color: blue;text-decoration: none;"href="#">view more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3-of-3">
+					<div class="card" style="padding: 10px;">
+						<div class="card-body">
+							<img
+								src="tg(8).jpg"
+								class="card-image"
+							/>
+
+							<div class="card-details content">
+								<div class="name">
+								    CHANDRIKA RAJI
+								</div>
+								<div>
+									26 yrs, 5' 09"
+								</div>
+								<div>
+							          web page developper
+								</div>
+								<div>
+									chennai
+								</div>
+								<div>
+										<a style="color: blue;text-decoration: none;" href="#">view more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3-of-3">
+					<div class="card" style="padding: 10px;">
+						<div class="card-body">
+							<img
+								src="tg(9).jpg"
+								class="card-image"
+							/>
+
+							<div class="card-details content">
+								<div class="name">
+									KARTHIKA . A
+								</div>
+								<div>
+									33 yrs, 5' 08"
+								</div>
+								<div>
+									House maker
+								</div>
+								<div>
+									Kochi
+								</div>
+								<div>
+										<a style="color: blue;text-decoration: none;" href="#">view more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+    </body>
+</html>

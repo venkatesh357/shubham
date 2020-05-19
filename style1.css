@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.register{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 450px;
+padding: 40px;
+background: rgba(0, 0, 0, .8);
+background-attachment: fixed;
+
+}
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+#name{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#ph{
+    width: 65px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#num{
+    width: 230px;
+    height: 31px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0em;
+}
+#sub{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    background-color: green;
+    color: white;
+    
+}
+#age{
+    width: 120px;
+    height: 45px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#opt{
+    width: 200px;
+    height: 45px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    font-family: times 'Times New Roman', Times, serif;
+}
+#sel{
+    
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        padding: 40px;
+        background: rgba(0, 0, 0, .8);
+        background-attachment: fixed;
+        
+        
+}
+
+#opti{
+    font-size: 20px;
+}
+.subm{
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    background-color: green;
+    color: white;
+    
+}
+.subm1{
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: dancing script;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    background-color: rgb(163, 11, 11);
+    color: white;
+    
+}
+.subm1:hover{
+    background: rgb(255, 238, 0);
+    color: maroon;
+}
+#password{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#confirm_password{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
